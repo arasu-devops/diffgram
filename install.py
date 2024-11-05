@@ -713,7 +713,7 @@ class DiffgramInstallTool:
                 return
 
     def print_logo(self):
-        print("""\
+        print("""
         ________  .__  _____  _____                            
         \______ \ |__|/ ____\/ ____\________________    _____  
             |    |  \|  \   __\\   __\/ ___\_  __ \__  \  /      \ 
