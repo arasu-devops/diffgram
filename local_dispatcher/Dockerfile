@@ -1,4 +1,4 @@
-FROM python:3.11.1-bullseye
+FROM python:3.12.10-bullseye
 LABEL python_version=python3.11.1
 
 ENV DOCKER_CONTEXT=True
