@@ -3413,11 +3413,6 @@
   resolved "https://registry.yarnpkg.com/@mdi/font/-/font-5.9.55.tgz#41acd50b88073ded7095fc3029d8712b6e12f38e"
   integrity sha512-jswRF6q3eq8NWpWiqct6q+6Fg/I7nUhrxYJfiEM8JJpap0wVJLQdbKtyS65GdlK7S7Ytnx3TTi/bmw+tBhkGmg==
 
-"@mdi/font@^7.0.96":
-  version "7.2.96"
-  resolved "https://registry.yarnpkg.com/@mdi/font/-/font-7.2.96.tgz#af800d9fe3b424f85ad45e9baa755bd003ab4986"
-  integrity sha512-e//lmkmpFUMZKhmCY9zdjRe4zNXfbOIJnn6xveHbaV2kSw5aJ5dLXUxcRt1Gxfi7ZYpFLUWlkG2MGSFAiqAu7w==
-
 "@mdx-js/mdx@^1.6.22":
   version "1.6.22"
   resolved "https://registry.yarnpkg.com/@mdx-js/mdx/-/mdx-1.6.22.tgz#8a723157bf90e78f17dc0f27995398e6c731f1ba"
@@ -5464,21 +5459,20 @@
     semver "^7.3.2"
     tsutils "^3.17.1"
 
-"@vue-js-cron/core@2.1.2":
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/@vue-js-cron/core/-/core-2.1.2.tgz#58fa216fa2e5eedd5e1d003109e7aff1eeefa7a3"
-  integrity sha512-S9MQBydJeMT+pf1AfRtPedE+dFyTnT53I6GVMsekexi2gLCbMqBnHUaUj65iojymsw6n8eEJjXMj4WBoITDkvA==
+"@vue-js-cron/core@3.7.1":
+  version "3.7.1"
+  resolved "https://registry.yarnpkg.com/@vue-js-cron/core/-/core-3.7.1.tgz#94fe7bf2fe827210921ba2976832fd2dae59a480"
+  integrity sha512-aWCkbfCbwpEJwmptY0tRFlxH4ZaVtnmR2Q3f0L8SzSC58cn45VYMe2/eSK53221cBmk/w+18Hq563u+W7Jp9Eg==
   dependencies:
     mustache "^4.2.0"
 
-"@vue-js-cron/vuetify@^2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@vue-js-cron/vuetify/-/vuetify-2.1.0.tgz#78b2f139ceea8bf918dbb64f485943fbcdb6d783"
-  integrity sha512-UW65XipuqkoIdrQ++idGdqohc7IMMK50xPVknVTQjclt6zJXVguocymp4+mC760To/r33/owzyzrJfIA5sbwhA==
+"@vue-js-cron/vuetify@^3.0.0":
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/@vue-js-cron/vuetify/-/vuetify-3.3.3.tgz#b25b0c12c545d772584e081967b1c00c72d49123"
+  integrity sha512-1UIc+GlxuvGIuCDTLBTn6/g54QaugdzyNNvz4OpRTXIboRgHA0U0A/URaHbolSbW0ddUP+FznF/O2JqqT7/Zew==
   dependencies:
-    "@mdi/font" "^7.0.96"
-    "@vue-js-cron/core" "2.1.2"
-    vuetify "^2.4.6"
+    "@vue-js-cron/core" "3.7.1"
+    vuetify "^3.0.0-beta.6"
 
 "@vue/babel-helper-vue-jsx-merge-props@^1.2.1":
   version "1.2.1"
@@ -22760,20 +22754,20 @@ vuedraggable@^2.24.3:
   dependencies:
     sortablejs "1.10.2"
 
-vuetify@2.6.10:
-  version "2.6.10"
-  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-2.6.10.tgz#b86cd7a97bf8cd3828a72c349795b5b3c539ebc2"
-  integrity sha512-fgUeRDDCwYkwu6WGEEKGe7IdfzOsXJCZGrqkn1pcS2ycuoDL8mR2/dejH5iFNnBY6MnsT365PAGn0J+9otjfQg==
-
-vuetify@^2.4.6:
-  version "2.6.15"
-  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-2.6.15.tgz#058c976f4e6e834076d80ae0c09bd61baa836d26"
-  integrity sha512-2a6sBSHzivXgi9pZMyHuzTgMyInCkj/BrVwTnoCa1Y/Dnfwj7lkWzgKQDScbGVK0q4vJ+YHoBBrLOmnhz1R0YA==
+vuetify@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-3.0.0.tgz#372eed0663f0ffba53439cd99aa46031e560b0f4"
+  integrity sha512-0olLmKWb+oTaebGTM02+1fWaAgnGDuIt86K3jDv2LnALQ2atSzhDS1SSASJsJCZ2PgFBdDAeJVLcNWWavRYAlQ==
 
 vuetify@^2.4.9:
   version "2.6.11"
   resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-2.6.11.tgz#d6eb9654dfdeb204b78f15d9e6adce85e090b3e6"
   integrity sha512-SX6BzS068t/RMj0d/sxxS/LsKdk9FpkL7CWShLyOMmJa/hiG63L0bvcopEaWYdRzzuQt7Nx174sk+KB6SvmYBw==
+
+vuetify@^3.0.0-beta.6:
+  version "3.11.3"
+  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-3.11.3.tgz#b95cd9db1130a75eb8f708538195d47b0a200676"
+  integrity sha512-sZe/2f143cbqtJupkynOGOHxgn+YjRrXIj0atZlBECbOr4nZPCmSdukPSbudb0wU3fQpUjlaTGx0m4vIBPQqGQ==
 
 vuex-persistedstate@^2.7.1:
   version "2.7.1"
