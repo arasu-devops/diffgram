@@ -27,7 +27,7 @@
     "@cypress/browserify-preprocessor": "^3.0.1",
     "@storybook/addon-a11y": "^6.5.12",
     "@types/three": "^0.134.0",
-    "@vue-js-cron/vuetify": "^2.1.0",
+    "@vue-js-cron/vuetify": "^3.0.0",
     "@vue/babel-helper-vue-jsx-merge-props": "^1.2.1",
     "@vue/cli-plugin-typescript": "^5.0.8",
     "@vue/cli-service": "^5.0.8",
@@ -86,7 +86,7 @@
     "vue-star-rating": "^1.7.0",
     "vue2-dropzone": "^3.6.0",
     "vuedraggable": "^2.24.3",
-    "vuetify": "2.6.10",
+    "vuetify": "3.0.0",
     "vuex": "^3.5.1",
     "vuex-persistedstate": "^2.7.1",
     "wavesurfer.js": "^7.0.5"
