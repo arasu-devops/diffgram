@@ -40,3 +40,4 @@ newrelic
 apscheduler==3.10.1
 pymongo
 python-dotenv==1.0.0
+azure-core>=1.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
